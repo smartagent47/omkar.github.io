@@ -221,6 +221,8 @@ blockquote {
 
 footer {
     background: #424242;
+    position: relative;
+    box-shadow: 0 0 20px rgba(0,0,0,0.50);
 }
 
 .footer-style {
