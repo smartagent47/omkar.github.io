@@ -200,6 +200,24 @@ blockquote {
     position: relative;
     bottom: 15px;
 }
+
+.sketch {
+    background: #FF6D00;
+    box-shadow: 0 0 20px rgba(0,0,0,0.50);
+    
+}
+.sketch-img {
+    display: block;
+    margin-top: 40px;
+}
+
+.sketch-para {
+    font-size: 20px;
+    font-weight: 300;
+    position: relative;
+    top: 150px;
+    color: #000;
+}
 @media screen and ( max-width: 800px ) {
     
     header {
@@ -260,7 +278,15 @@ blockquote {
         position: relative;
         bottom: 5px;
         width: 32px;
-        height: 32px;
+        height: 32px;   
+    }
+    
+    .quote {
+        font-size: 14px;
+    }
+    
+    .quote-sub {
+        font-size: 11px;
     }
 }
     
