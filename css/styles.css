@@ -288,5 +288,11 @@ blockquote {
     .quote-sub {
         font-size: 11px;
     }
+    
+    .sketch-para {
+        font-size: 15px;
+        font-weight: 300;
+        top: 0px;
+    }
 }
     
