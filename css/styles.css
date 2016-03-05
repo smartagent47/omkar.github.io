@@ -142,7 +142,7 @@ header .intro-text .skills {
     
 }
 .about-photo {
-    top: 40px;
+    top: 80px;
     position: relative;
     margin: 0 50px;
 }
@@ -215,8 +215,8 @@ header .intro-text .skills {
     
     .about-photo {
         position: relative;
-        top: 20px;
-        margin: 0 25px;
+        top: 40px;
+        margin: 0 0px;
     }
     
     .about-h5 {
