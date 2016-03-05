@@ -195,6 +195,11 @@ blockquote {
     font-weight: 300;
     font-style: italic;
 }
+
+.logo {
+    position: relative;
+    bottom: 15px;
+}
 @media screen and ( max-width: 800px ) {
     
     header {
@@ -249,6 +254,13 @@ blockquote {
         top: 50px;
         font-size: 1.5rem;
         letter-spacing: 1px;
+    }
+    
+    .logo {
+        position: relative;
+        bottom: 5px;
+        width: 32px;
+        height: 32px;
     }
 }
     
