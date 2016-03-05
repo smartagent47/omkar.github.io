@@ -218,6 +218,22 @@ blockquote {
     top: 150px;
     color: #000;
 }
+
+footer {
+    background: #424242;
+}
+
+.footer-style {
+    color: #fff;
+}
+.footer {
+    position: relative;
+    padding: 20px;
+}
+
+.credit:hover {
+    color: #FFAB00;
+}
 @media screen and ( max-width: 800px ) {
     
     header {
