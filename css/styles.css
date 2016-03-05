@@ -3,6 +3,7 @@
 body {
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
 }
 
 html {
@@ -12,6 +13,7 @@ html {
 
 p {
     font-family: roboto;
+    color: #000;
 }
 
 h1,
@@ -25,8 +27,7 @@ h6 {
 }
 
 hr {
-    margin-left: 810px;
-    border-color:rgba(250,250,250, 0.1);
+    border-color:rgba(250,250,250, 0.5);
 }
 
 a,
@@ -52,187 +53,177 @@ a:active {
     font-family: roboto;
     src: url('../fonts/roboto/Roboto-Light.ttf')
 }
-
-.navbar-default {
-  background-color: #222222;
-  border-color: transparent;
+    
+header {
+  text-align: center;
+  background: url(../images/header.png) 50% 50% repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  color: white;
+  padding-top: 5%;
 }
-.navbar-default .navbar-brand {
-  color: #E65100;
-  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+header .container {
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus,
-.navbar-default .navbar-brand:active,
-.navbar-default .navbar-brand.active {
-  color: #fff;
+header img {
+  display: block;
+  margin: 0 auto 20px;
 }
-.navbar-default .navbar-collapse {
-  border-color: rgba(255, 255, 255, 0.02);
-}
-.navbar-default .navbar-toggle {
-  background-color: #E65100;
-  border-color: #E65100;
-}
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: white;
-}
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: transparent;
-}
-.navbar-default .nav li a {
+header .intro-text .name {
+  display: block;
   font-family: roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 400;
-  letter-spacing: 1px;
-  color: white;
+  font-weight: 100;
+  font-size: 2em;
 }
-.navbar-default .nav li a:hover,
-.navbar-default .nav li a:focus {
-  color: #E65100;
-  outline: none;
-}
-.navbar-default .navbar-nav > .active > a {
-  border-radius: 0;
-  color: white;
-  background-color: #fff;
-}
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-  color: white;
-  background-color: #fff;
+header .intro-text .skills {
+  font-size: 1.25em;
+  font-weight: 300;
 }
 @media (min-width: 768px) {
-  .navbar-default {
-    background-color: transparent;
-    padding: 25px 0;
+  header .container {
+    padding-top: 200px;
+    padding-bottom: 100px;
+  }
+  header .intro-text .name {
+    font-size: 4.75em;
+  }
+  header .intro-text .skills {
+    font-size: 1.75em;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-fixed-top {
+    padding: 10px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
-    border: none;
   }
-  .navbar-default .navbar-brand {
+  .navbar-fixed-top .navbar-brand {
     font-size: 2em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
   }
-  .navbar-default .navbar-nav > .active > a {
-    border-radius: 3px;
-  }
-  .navbar-default.navbar-shrink {
-    background-color: #222222;
+  .navbar-fixed-top.navbar-shrink {
     padding: 10px 0;
   }
-  .navbar-default.navbar-shrink .navbar-brand {
+  .navbar-fixed-top.navbar-shrink .navbar-brand {
     font-size: 1.5em;
   }
 }
-
-header {
-  background-image: url('../images/header.png');
-  background-repeat: none;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  text-align: center;
-  color: white;
-}
-header .intro-text {
-  padding-top: 100px;
-  padding-bottom: 50px;
-}
-header .intro-text .intro-lead-in {
-  font-family: roboto;
-  font-style: italic;
-  font-size: 22px;
-  line-height: 22px;
-  margin-bottom: 25px;
-}
-header .intro-text .intro-heading {
-  font-family: roboto;
-  text-transform: none;
-  font-weight: 100;
-  font-size: 50px;
-  line-height: 50px;
-  margin-bottom: 25px;
-}
-@media (min-width: 768px) {
-  header .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px;
-  }
-  header .intro-text .intro-lead-in {
-    font-family: roboto;
-    font-style: normal;
-    font-size: 30px;
-    line-height: 40px;
-    margin-bottom: 25px;
-    text-align: -webkit-right;
-      letter-spacing: -1px;
-      
-  }
-  header .intro-text .intro-heading {
-    font-family: roboto;
-    text-transform: none;
-    font-weight: 100;
-    font-size: 75px;
-    line-height: 75px;
-    margin-bottom: 50px;
-    text-align: -webkit-right;
-  }
-}
-
 .navbar {
-    background-color: transparent !important;
-    
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.navbar a:focus {
+  outline: none;
+}
+.navbar .navbar-nav {
+  letter-spacing: 1px;
+}
+.navbar .navbar-nav li a:focus {
+  outline: none;
+}
+.navbar-default,
+.navbar-inverse {
+  border: none;
 }
 
 .custom-nav, .navbar-brand {
     color: #fff;
 }
 
-@media(min-width:767px) {
-    .navbar {
-        padding: 20px 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
-    }
+.about {
+    background: #FFA726;
+    padding-bottom: 15%;
+    
+}
+.about-photo {
+    top: 40px;
+    position: relative;
+    margin: 0 50px;
+}
 
-    .top-nav-collapse {
-        padding: 0;
-    }
+.about-h5 {
+    position: relative;
+    top: 100px;
+    color: #000;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+.about-head {
+    text-align: center;
+    padding-top: 60px;
+    font-family: roboto;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #000;
+}
+ .about-me {
+    position: relative;
+    top: 100px;
+    
 }
 
 @media screen and ( max-width: 800px ) {
     
-    .navbar {
-        background-color: #212121 !important;
+    header {
+          text-align: center;
+          background-image: url(../images/header.png);
+          background-position: center center;
+          background-size: cover;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          background-attachment: scroll;
+          background-repeat: repeat;
+          color: white;
     }
     
-    header .intro-text .intro-lead-in {
+    header .intro-text .skills {
         font-family: roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-style: normal;
         font-size: 15px;
         text-transform: none;
-        letter-spacing: -0.5px;
+        letter-spacing: -0.1px;
         font-weight: bold;
         line-height: 15px;
         margin-bottom: 12.5px;
         text-align: right;
   }
-    header .intro-text .intro-heading {
+    header .intro-text .name {
         font-family: roboto;
         text-transform: none;
         font-size: 30px;
         line-height: 30px;
         font-weight: 300;
-        text-align: right;
+    }
+    
+    .about-head {
+        font-size: 30px;
+        padding-top: 30px;
+    }
+    
+    .about-me {
+        position: relative;
+        top: 50px;
+    }
+    
+    .about-photo {
+        position: relative;
+        top: 20px;
+        margin: 0 25px;
+    }
+    
+    .about-h5 {
+        position: relative;
+        top: 50px;
+        font-size: 1.5rem;
+        letter-spacing: 1px;
     }
 }
     

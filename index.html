@@ -26,8 +26,8 @@
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" id="scroll">
+ <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
@@ -47,16 +47,10 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team">Team</a>
+                        <a class="page-scroll" href="#downloads">Downloads</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -67,19 +61,41 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-   
-      <!-- Header -->
+
+    <!-- Header -->
     <header>
         <div class="container">
-            <div class="intro-text">
-                <div class="intro-heading">Hi, I'm Omkar</div>
-                <div class="intro-lead-in">Android Developer | MicroBiologist | Foodie</div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-text">
+                        <span class="name">I'm Omkar</span>
+                        <hr>
+                        <span class="skills">Android Developer | Microbiologist | Foodie</span>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
+
    
    
-   
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+               <h1 class="about-head">About Me</h1>
+               <hr>
+                <div class="col-sm-6">
+                    <img src="images/about-photo.png" alt="about-photo" class="img-thumbnail about-photo img-responsive" width="300px" height="300px">
+                </div>
+                
+                <div class="col-sm-6">
+                    <h5 class="text-muted about-h5">WHO AM I</h5>
+                    <p class="lead about-me"> I'm <b>Omkar Shinde</b>, A Microbiologist Guy. Though My Field is different, I love to Code. For Me Android Development is My Hobby. I Know When i came to Android Development Field I Was a Noob. Now also I am a Noob ..But at that time i used to Make shitty sound mods for Galaxy Y. After sometime when i got a Micromax A116, i started to port roms. I got more interested in Android Development. Time passed away &amp; got more knowledge about Android. Now I have compiled ROMs from source. I have contributed to many projects like <b>CyanogenMod, Paranoid Android, Team Horizon</b> &amp; Many More.</p>
+                </div>
+            </div>
+        </div>
+    </section>
    
    
     <!-- jQuery -->
@@ -88,8 +104,10 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
     
+    <script src="js/myjs.js"></script>
+    
     <!-- Scrolling Nav JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
 </body>
 </html>
