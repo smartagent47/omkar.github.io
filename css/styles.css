@@ -53,6 +53,139 @@ a:active {
     src: url('../fonts/roboto/Roboto-Light.ttf')
 }
 
+.navbar-default {
+  background-color: #222222;
+  border-color: transparent;
+}
+.navbar-default .navbar-brand {
+  color: #E65100;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+  color: #fff;
+}
+.navbar-default .navbar-collapse {
+  border-color: rgba(255, 255, 255, 0.02);
+}
+.navbar-default .navbar-toggle {
+  background-color: #E65100;
+  border-color: #E65100;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+.navbar-default .nav li a {
+  font-family: roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: white;
+}
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+  color: #E65100;
+  outline: none;
+}
+.navbar-default .navbar-nav > .active > a {
+  border-radius: 0;
+  color: white;
+  background-color: #fff;
+}
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .navbar-default {
+    background-color: transparent;
+    padding: 25px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    border: none;
+  }
+  .navbar-default .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .navbar-default .navbar-nav > .active > a {
+    border-radius: 3px;
+  }
+  .navbar-default.navbar-shrink {
+    background-color: #222222;
+    padding: 10px 0;
+  }
+  .navbar-default.navbar-shrink .navbar-brand {
+    font-size: 1.5em;
+  }
+}
+
+header {
+  background-image: url('../images/header.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: white;
+}
+header .intro-text {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+header .intro-text .intro-lead-in {
+  font-family: roboto;
+  font-style: italic;
+  font-size: 22px;
+  line-height: 22px;
+  margin-bottom: 25px;
+}
+header .intro-text .intro-heading {
+  font-family: roboto;
+  text-transform: none;
+  font-weight: 100;
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 25px;
+}
+@media (min-width: 768px) {
+  header .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+  header .intro-text .intro-lead-in {
+    font-family: roboto;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 25px;
+    text-align: -webkit-right;
+      letter-spacing: -1px;
+      
+  }
+  header .intro-text .intro-heading {
+    font-family: roboto;
+    text-transform: none;
+    font-weight: 100;
+    font-size: 75px;
+    line-height: 75px;
+    margin-bottom: 50px;
+    text-align: -webkit-right;
+  }
+}
 
 .navbar {
     background-color: transparent !important;
@@ -61,41 +194,6 @@ a:active {
 
 .custom-nav, .navbar-brand {
     color: #fff;
-}
-
-header {
-    background: url(../images/header.png) 50% 50%;
-    background-size: cover;
-    background-origin: center;
-    color:#fff;
-    text-align: right;
-    padding-top:100px;
-    padding-bottom:100px;
-    position: relative;
-    top: -100px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.50);
-}
-
-header .container {
-    padding-top: 10%;
-    padding-bottom: 10%;
-}
-
-header .header-text .header-name {
-    font-family: roboto;
-    font-weight: 100;
-    font-size: 5rem;
-    display: inline-block;
-}
-
-header .header-text .header-specialist {
-    font-size: 1.25em;
-    font-weight: 100;
-}
-
-header .header-specialist {
-    font-family: roboto;
-    font-weight: 100;
 }
 
 @media(min-width:767px) {
@@ -110,3 +208,31 @@ header .header-specialist {
         padding: 0;
     }
 }
+
+@media screen and ( max-width: 800px ) {
+    
+    .navbar {
+        background-color: #212121 !important;
+    }
+    
+    header .intro-text .intro-lead-in {
+        font-family: roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-style: normal;
+        font-size: 15px;
+        text-transform: none;
+        letter-spacing: -0.5px;
+        font-weight: bold;
+        line-height: 15px;
+        margin-bottom: 12.5px;
+        text-align: right;
+  }
+    header .intro-text .intro-heading {
+        font-family: roboto;
+        text-transform: none;
+        font-size: 30px;
+        line-height: 30px;
+        font-weight: 300;
+        text-align: right;
+    }
+}
+    
