@@ -204,6 +204,7 @@ blockquote {
 .sketch {
     background: #FF6D00;
     box-shadow: 0 0 20px rgba(0,0,0,0.50);
+    position: relative;
     
 }
 .sketch-img {
@@ -219,8 +220,42 @@ blockquote {
     color: #000;
 }
 
+.contactme {
+    background: #F57F17;
+    box-shadow: 0 0 20px rgba(0,0,0,0.50);
+}
+
+.contact-head {
+    position: relative;
+    padding-top: 50px;
+    color: #fff;
+    font-family: roboto;
+    font-size: 60px;
+    font-weight: 100;
+    
+}
+
+.contactme-name {
+    color: #fff;
+    font-size: 25px;
+    font-family: roboto;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.icons {
+    padding-top: 0px;
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.icons-inner {
+    padding: 0 4px;
+}
+
 footer {
-    background: #424242;
+    background: #212121;
     position: relative;
     box-shadow: 0 0 20px rgba(0,0,0,0.50);
 }
@@ -228,6 +263,7 @@ footer {
 .footer-style {
     color: #fff;
 }
+
 .footer {
     position: relative;
     padding: 20px;
@@ -236,6 +272,7 @@ footer {
 .credit:hover {
     color: #FFAB00;
 }
+
 @media screen and ( max-width: 800px ) {
     
     header {
@@ -311,6 +348,15 @@ footer {
         font-size: 14px;
         font-weight: 300;
         top: 0px;
+    }
+    
+    .contact-head {
+        font-size: 30px;
+        padding-top: 25px;
+    }
+    
+    .contactme-name {
+        font-size: 14px;
     }
 }
     
