@@ -151,6 +151,10 @@ header .intro-text .skills {
     margin: 0 50px;
 }
 
+.about-photo:hover {
+    box-shadow: 0 0 20px rgba(0,0,0,0.50);
+}
+
 .about-h5 {
     position: relative;
     top: 100px;
