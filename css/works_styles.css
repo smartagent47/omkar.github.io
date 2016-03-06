@@ -144,6 +144,35 @@ header .intro-text .skills {
     bottom: 15px;
 }
 
+.roms {
+    padding: 8%;
+    background: #2196F3;
+}
+
+.roms-title {
+    font-size: 25px;
+    padding-bottom: 10px;
+    color: #000;
+}
+
+ul {
+    padding: 10px;
+    font-size:18px;
+    font-weight: 200;
+    color: #000;
+}
+
+.roms-paragraph {
+    padding-top: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cm-img {
+    display: block;
+    text-align: center;
+}
+
 @media screen and ( max-width: 800px ) {
     
     header {
@@ -183,4 +212,40 @@ header .intro-text .skills {
         bottom: 5px;
         width: 32px;
         height: 32px;   
+    }
+    
+    .roms {
+        padding: 3%;
+    }
+    
+    .roms-title {
+        font-size: 13px;
+        padding-bottom: 5px;
+        text-align: center;
+    }
+    
+    ul {
+        padding: 5px;
+        font-size: 10px;
+        font-weight: 100;
+        display: table;
+        margin: 0 auto;
+    }
+    
+    .roms-paragraph {
+        padding-top: 4px;
+        font-size: 9px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .cm-img {
+        padding-top: 6%;
+        padding-bottom: 10px;
+        display: block;
+        text-align: center;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        
     }
