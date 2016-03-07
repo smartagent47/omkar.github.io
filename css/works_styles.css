@@ -232,7 +232,6 @@ ul {
 
 .card {
     height: 400px;
-    margin-top: 10%;
 }
 
 @media screen and (min-width:1920px) {
@@ -326,5 +325,15 @@ ul {
     .kernel-img {
         position: relative;
         padding-right: 2%;
+    }
+    
+    .card {
+        height: 50%;
+    }
+    
+    .card-title-head {
+        font-family: roboto;
+    }
+    
     }
 
