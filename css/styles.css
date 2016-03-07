@@ -138,6 +138,18 @@ header .intro-text .skills {
     color: #fff;
 }
 
+.swagmeradesi {
+    background: #FFAB00;
+    padding: 5%;
+}
+
+.swagdesi-title {
+    font-family: roboto;
+    text-align: center;
+    color: #fff;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
 .about {
     background: #FFA726;
     padding-bottom: 15%;
