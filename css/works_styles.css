@@ -292,4 +292,9 @@ ul {
         margin-left: auto;
         margin-right: auto;
     }
+    
+    .kernel-img {
+        position: relative;
+        padding-right: 2%;
+    }
 
