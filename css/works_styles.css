@@ -98,7 +98,7 @@ header .intro-text .skills {
 }
 @media (min-width: 768px) {
   .navbar-fixed-top {
-    padding: 10px 0;
+    padding: 8px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
@@ -175,6 +175,8 @@ ul {
 
 .kernel {
     background: #8C9EFF;
+    box-shadow: 0 0 20px rgba(0,0,0,0.50);
+    position: relative;
 }
 
 .kernel-title {
@@ -210,7 +212,30 @@ ul {
     font-weight: bold;
 }
 
-@media screen and (min-width:768px) {
+.downloads {
+    background: #0D47A1;
+}
+
+.downloads p {
+    font-weight: 300;
+    font-size: 15px;
+    font-family: roboto;
+    color: #000;
+}
+
+.devices {
+    text-align: center;
+    font-family: roboto;
+    font-weight: 100;
+    color: #fff;
+}
+
+.card {
+    height: 400px;
+    margin-top: 10%;
+}
+
+@media screen and (min-width:1920px) {
     header {
         padding-bottom: 20%;
     }
