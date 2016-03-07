@@ -97,14 +97,14 @@ header .intro-text .skills {
   }
 }
 @media (min-width: 768px) {
+    
   .navbar-fixed-top {
-    padding: 8px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
   }
   .navbar-fixed-top .navbar-brand {
-    font-size: 2em;
+    font-size: 3em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -141,7 +141,7 @@ header .intro-text .skills {
 
 .logo {
     position: relative;
-    bottom: 15px;
+    bottom: 8px;
 }
 
 .roms {
@@ -232,6 +232,40 @@ ul {
 
 .card {
     height: 400px;
+}
+
+.icons {
+    padding-top: 0px;
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.icons-inner {
+    padding: 0 4px;
+}
+
+footer {
+    background: #212121;
+    position: relative;
+    box-shadow: 0 0 20px rgba(0,0,0,0.50);
+}
+
+.footer-style {
+    color: #fff;
+}
+
+.footer-title {
+    color: #fff;
+}
+
+.footer {
+    position: relative;
+    padding: 20px;
+}
+
+.credit:hover {
+    color: #FFAB00;
 }
 
 @media screen and (min-width:1920px) {
